@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B7A8B01-AD53-4D01-A677-D153340C597E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB9AB524-BE58-4E75-BC76-BF4A38DE247B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M.Document.Common", "src\M.Document.Common\M.Document.Common.csproj", "{55C95101-509E-4417-996C-32AF577CAC53}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "M.Document.Service", "src\M.Document.Service\M.Document.Service.xproj", "{D904EDF7-0EE0-4E8C-9E3F-E27568B86B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M.IText7.Provider", "src\M.IText7.Provider\M.IText7.Provider.csproj", "{95779692-960F-499B-AD9E-7978251F021E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{35C6F680-B34C-41EF-9CA8-EE6FB60F86C6}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Program Files (x86)\PDFtk Server\bin\libiconv2.dll = C:\Program Files (x86)\PDFtk Server\bin\libiconv2.dll
+		C:\Program Files (x86)\PDFtk Server\bin\pdftk.exe = C:\Program Files (x86)\PDFtk Server\bin\pdftk.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M.Spire.Provider", "src\M.Spire.Provider\M.Spire.Provider.csproj", "{7D7744C5-3243-44B5-BEE9-E7F16DFF2E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M.PdfTk.Provider", "src\M.PdfTk.Provider\M.PdfTk.Provider.csproj", "{DDDD2AC0-C23C-4831-9BC8-0677C5E75C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M.PdfSharp.Provider", "src\M.PdfSharp.Provider\M.PdfSharp.Provider.csproj", "{D4A2C12D-290E-47FA-AD58-171CE1B1DFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M.Pdfium.Provider", "M.Pdfium.Provider\M.Pdfium.Provider.csproj", "{2ABA2224-7512-4791-A5C7-99E2947E5FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C95101-509E-4417-996C-32AF577CAC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C95101-509E-4417-996C-32AF577CAC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C95101-509E-4417-996C-32AF577CAC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C95101-509E-4417-996C-32AF577CAC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D904EDF7-0EE0-4E8C-9E3F-E27568B86B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D904EDF7-0EE0-4E8C-9E3F-E27568B86B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D904EDF7-0EE0-4E8C-9E3F-E27568B86B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D904EDF7-0EE0-4E8C-9E3F-E27568B86B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95779692-960F-499B-AD9E-7978251F021E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95779692-960F-499B-AD9E-7978251F021E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95779692-960F-499B-AD9E-7978251F021E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95779692-960F-499B-AD9E-7978251F021E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7744C5-3243-44B5-BEE9-E7F16DFF2E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7744C5-3243-44B5-BEE9-E7F16DFF2E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7744C5-3243-44B5-BEE9-E7F16DFF2E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7744C5-3243-44B5-BEE9-E7F16DFF2E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDD2AC0-C23C-4831-9BC8-0677C5E75C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDD2AC0-C23C-4831-9BC8-0677C5E75C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDD2AC0-C23C-4831-9BC8-0677C5E75C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDD2AC0-C23C-4831-9BC8-0677C5E75C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A2C12D-290E-47FA-AD58-171CE1B1DFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A2C12D-290E-47FA-AD58-171CE1B1DFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A2C12D-290E-47FA-AD58-171CE1B1DFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A2C12D-290E-47FA-AD58-171CE1B1DFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABA2224-7512-4791-A5C7-99E2947E5FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABA2224-7512-4791-A5C7-99E2947E5FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABA2224-7512-4791-A5C7-99E2947E5FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABA2224-7512-4791-A5C7-99E2947E5FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55C95101-509E-4417-996C-32AF577CAC53} = {3B7A8B01-AD53-4D01-A677-D153340C597E}
+		{D904EDF7-0EE0-4E8C-9E3F-E27568B86B76} = {3B7A8B01-AD53-4D01-A677-D153340C597E}
+		{95779692-960F-499B-AD9E-7978251F021E} = {3B7A8B01-AD53-4D01-A677-D153340C597E}
+		{7D7744C5-3243-44B5-BEE9-E7F16DFF2E8D} = {3B7A8B01-AD53-4D01-A677-D153340C597E}
+		{DDDD2AC0-C23C-4831-9BC8-0677C5E75C69} = {3B7A8B01-AD53-4D01-A677-D153340C597E}
+		{D4A2C12D-290E-47FA-AD58-171CE1B1DFA3} = {3B7A8B01-AD53-4D01-A677-D153340C597E}
+		{2ABA2224-7512-4791-A5C7-99E2947E5FEB} = {3B7A8B01-AD53-4D01-A677-D153340C597E}
+	EndGlobalSection
+EndGlobal
